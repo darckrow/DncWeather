@@ -1,0 +1,38 @@
+html{
+    background-color: #F2F2F2;
+}
+nav{
+    background-color: #0C70F2;
+    font-family: "Inter", sans-serif;
+}
+
+nav h1{
+    background-color: #0C70F2;
+    color: white;
+    padding: 10px;
+}
+#mainContent{
+    background-color: #F2F2F2;
+    display: flex;
+    padding: 10ch;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+form{
+    background-color: #FFFFFF;
+    
+    border-radius: 15px;
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+    margin-top: 5px;
+}
+.formContent{
+    background-color: #F2F2F2;
+    display: grid;
+    justify-content: space-around;
+}
