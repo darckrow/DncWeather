@@ -1,5 +1,5 @@
-html{
-    background-color: #F2F2F2;
+body{
+    background-color: #ff0000;
 }
 nav{
     background-color: #0C70F2;
@@ -23,16 +23,220 @@ nav h1{
 }
 
 form{
-    background-color: #FFFFFF;
-    
+    background-color: #F2F2F2E5;
     border-radius: 15px;
-    text-align: center;
-    width: 500px;
-    padding: 20px;
+    width: 600px;
+    padding: 80px;
     margin-top: 5px;
 }
 .formContent{
-    background-color: #F2F2F2;
-    display: grid;
+    background-color: #F2F2F2E5;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.form{
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 90%;
+}
+.latLong{
+    display: flex;
     justify-content: space-around;
+    width: 89%;
+}
+p{
+    padding-top: 15px;
+}
+.cepResult, .tempo{
+    background-color: #F2F2F2;
+}
+.result, .tempo{
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
+
+}
+.result-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0C70F2;
+    margin: 10px 300px 0px 300px;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 20px;
+    color: #F2F2F2;
+    font-weight: bold
+}
+.resultLog{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 0px 300px 0px 300px;
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 17px;
+}
+
+.tempo{
+    padding: 200px 0px 50px 0px;
+}
+.resultadoTemp{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: #F2F2F2;
+}
+.tempoValor{
+    background-color: #ffffff;
+    margin: 0px 300px 0px 300px;
+    border-radius: 20px;
+    padding: 17px;
+    font-size: 20px;
+    border: #0C70F2 solid  1px ;
+}
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #0C70F2;
+    color: white;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Para dispositivos menores que tablets */
+    nav {
+        font-size: 14px;
+    }
+
+    nav h1 {
+        font-size: 16px;
+    }
+
+    #mainContent {
+        font-size: 14px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    .form {
+        padding: 15px;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .result-info {
+        font-size: 18px;
+    }
+
+    .resultLog {
+        font-size: 15px;
+    }
+
+    .tempoValor {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Para dispositivos menores que tablets */
+    nav {
+        font-size: 14px;
+    }
+
+    nav h1 {
+        font-size: 16px;
+    }
+
+    #mainContent {
+        font-size: 14px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    .form {
+        padding: 15px;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .result-info {
+        font-size: 18px;
+    }
+
+    .resultLog {
+        font-size: 15px;
+    }
+
+    .tempoValor {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Para dispositivos menores que smartphones */
+    nav h1 {
+        font-size: 14px;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    .form {
+        padding: 10px;
+    }
+
+    input {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .result-info {
+        font-size: 16px;
+    }
+
+    .resultLog {
+        font-size: 14px;
+    }
+
+    .tempoValor {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
 }
