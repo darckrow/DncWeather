@@ -65,7 +65,7 @@
           type="text"
           class="form-control"
           placeholder="digite seu CEP"
-          aria-label="Last name"/>
+          aria-label="Last name" id="cepInput"/>
         <p>Digite a latitude e longitude para saber a previsão:</p>
         <div class="row">
           <div class="col">
@@ -73,17 +73,23 @@
               type="text"
               class="form-control"
               placeholder="latitude"
-              aria-label="latitude"/>
+              aria-label="latitude"
+              id="latitude"/>
           </div>
           <div class="col">
             <input
               type="text"
               class="form-control"
               placeholder="longitude"
-              aria-label="longitude"/>
+              aria-label="longitude"
+              id="longitude"/>
+             
           </div>
+          <button type="button" class="btn btn-primary" onclick="temperaturaCep(); getAddressByCep()">Buscar</button>
         </div>
+       
       </div>
+      
     </div>
 
     <div class="cepResult">
@@ -111,17 +117,11 @@
 
               <div class="resultLog">
 
-                <div class="responseLog">
-                  <h4>Justino Cobra</h4>
-                </div>
+                <input id="responseLog" disabled></input>
 
-                <div class="responseDistrict">
-                  <h4>Vila Ema</h4>
-                </div>
+                <input id="responseDistrict" disabled></input>
 
-                <div class="responseUF">
-                  <h4>SP</h4>
-                </div>
+                <input id="responseUF" disabled></input>
             </div>
         </div>
     </div>    
@@ -134,7 +134,7 @@
 
       <div class="resultadoTemp">
           <div class="tempoValor">
-            <h3>Previsão de tempo de acordo com a região: 24° C</h3>
+            <h3>Previsão de tempo de acordo com a região: <input id="resultTemp" disabled></h3>
           </div>
       </div>
 

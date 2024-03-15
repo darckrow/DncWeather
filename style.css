@@ -91,6 +91,13 @@ p{
     border-radius: 0px 0px 20px 20px;
     font-size: 17px;
 }
+.resultLog input{
+    width: 250px;
+}
+.resultLog input,
+input::placeholder{ 
+  text-align: center;
+}
 
 .tempo{
     padding: 200px 0px 50px 0px;
